@@ -2,7 +2,7 @@
   <div class="home">
     <div class="hero">
       <h1 class="hero-title">WELCOME {{ storeName }}</h1>
-      <p class="hero-description">Temukan kebutuhan hidup anda hanya di toko kami!</p>
+      <p class="hero-description">Temukan makanan kesukaan anda di FOODIE kami!</p>
       <NuxtLink to="/product" class="text-base">
         <button class="hero-button">Lihat Produk</button>
       </NuxtLink>
@@ -14,7 +14,7 @@
 export default {
   data() {
     return {
-      storeName: "ZANI'S STORE"
+      storeName: "ZA'S FOODIE"
     };
   }
 };
@@ -27,7 +27,7 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('Img/bg.jpg') center/cover no-repeat;
+  background: url('/images/tokoonlinesaya.jpg') center/cover no-repeat;
 }
 
 .hero {
